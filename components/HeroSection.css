@@ -1,0 +1,42 @@
+@media screen and (max-width: 599px) {
+    .heroCoverContainer{
+        display: flex;
+        position: relative;
+    }
+    .HeroCover{
+        height: auto;
+        max-width: 100%;
+    }
+    #introduction{
+        display: flex;
+        top: 40%;
+        left: 35%;
+        flex-direction: column;
+        align-items: center;
+        position: absolute;
+    }
+    #introduction h1, #introduction h3{
+        font-size: 20px;
+    }
+}
+@media screen and (min-width: 599px) {
+    .heroCoverContainer{
+        display: flex;
+        position: relative;
+    }
+    .HeroCover{
+        height: auto;
+        max-width: 100%;
+    }
+    #introduction{
+        display: flex;
+        top: 40%;
+        left: 42%;
+        flex-direction: column;
+        align-items: center;
+        position: absolute;
+    }
+    #introduction h1, #introduction h3{
+        font-size: 20px;
+    }    
+}

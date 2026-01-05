@@ -1,0 +1,10 @@
+@media screen and (max-width: 600px) {
+    #contactModal{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+    }
+    #introduction{
+        position: absolute;
+    }
+}otendako
